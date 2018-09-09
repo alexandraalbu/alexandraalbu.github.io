@@ -9,4 +9,6 @@ In this blog post we will look at a nice problem given several years ago at the 
 
 >Let $$ n \in \mathbb{N} $$.
 
+$$ n \in \mathbb{N} $$
+
 <p>$$ n \in \mathbb{N} $$</p>
