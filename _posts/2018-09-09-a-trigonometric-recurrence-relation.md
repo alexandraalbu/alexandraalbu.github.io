@@ -7,8 +7,4 @@ use_math: true
 
 In this blog post we will look at a nice problem given several years ago at the mathematical olympiad. The problem sounds like this: 
 
->Let $$ n \in \mathbb{N} $$.
-
-$$ n \in \mathbb{N} $$
-
-<p>$$ n \in \mathbb{N} $$</p>
+>Let $$ n \in \mathbb{N} $$ .
