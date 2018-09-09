@@ -16,7 +16,14 @@
           <td>2015-2018</td>
           <td>Bachelor's Degree, <i>Computer Science</i>  
              <br>Babeş-Bolyai University, Cluj-Napoca, Romania
+             <br>Diploma thesis: Secret Sharing-Based Electronic Voting
           </td>
+      </tr>
+      <tr>
+           <td>2011-2015</td>
+           <td>Baccalaureate Diploma, <i>Mathematics and Computer Science</i>  
+               <br>Lucian Blaga High School, Cluj-Napoca, Romania
+           </td>
       </tr>
    </tbody>
 </table>
