@@ -1,4 +1,14 @@
-This is the place I write about problems or topics I found interesting
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body>
+This is the place I write about problems or topics I find interesting.
 
 <ul>
   {% for post in site.posts %}
@@ -7,3 +17,4 @@ This is the place I write about problems or topics I found interesting
     </li>
   {% endfor %}
 </ul>
+</body>
