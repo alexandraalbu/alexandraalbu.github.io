@@ -5,6 +5,6 @@ likedin_url: https://www.linkedin.com/in/alexandra-albu-978b98151/
 author: Alexandra Albu
 github:
   git_url: https://github.com/alexandraalbu
-markdown: kramdown
+markdown: maruku
 plugins:
   - jemoji
