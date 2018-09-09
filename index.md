@@ -3,6 +3,7 @@
 * Variational Autoencoders
 * Cryptography
 
+
 ### Education
 <table id="educationTable" class="display">
    <tbody>
