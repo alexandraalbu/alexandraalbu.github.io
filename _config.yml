@@ -4,3 +4,6 @@ description: Blog on maths, computer science and many more
 likedin_url: https://www.linkedin.com/in/alexandra-albu-978b98151/
 github:
   git_url: https://github.com/alexandraalbu
+
+plugins:
+  - jemoji
