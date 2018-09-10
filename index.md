@@ -1,7 +1,7 @@
 ### Interests
 * Unsupervised Learning
 * Variational Autoencoders
-* Cryptography
+* Operations on encrypted data
 
 
 ### Education
