@@ -18,13 +18,16 @@ $$ S_2 = 2 \sqrt{4} \cos(2 \arccos(\frac{\sqrt{2}}{4})) = 4 (2 \cos(\arccos(\fra
 So both $S_1$ and $S_2$ are odd number. 
 Since we have to prove that $S_n$ is odd for all values of $n \in \mathbb{N}$, a possible idea is to find a recurrence relation involving $S_n$ terms.
 
+
 *First solution:* The official solution derives this recurrence relation using complex numbers. 
 Namely, let $\alpha=\frac{\sqrt{2}}{4}$ and $z=\cos(\alpha) + i \sin(\alpha)$. Using de Moivre's formula,
-we get that $z^n=\cos(n\alpha)+i\sin(n\alpha)$. Further, $\overline{z}^n=\overline{z^n}=\cos(n\alpha)-i\sin(n\alpha)$,so
+we get that $z^n=\cos(n\alpha)+i\sin(n\alpha)$. Further, $\overline{z}^n=\overline{z^n}=\cos(n\alpha)-i\sin(n\alpha)$, so
 $z^n+\overline{z}^n=2\cos(n\alpha)$ and, therefore, $S_n=2\sqrt{2^n}\cos(n\alpha)=\sqrt{2^n}(z^n+\overline{z}^n)$.
 Why is this useful? Well, we can obtain a recurrence relation involving $z$ using the equality:
 
-$$ z^n+\overline{z}^n=(z+\overline{z})(z^{n-1}+\overline{z}^{n-1}) - z \overline{z}(z^{n-2}+\overline{z}^{n-2})$$ 
+$$ z^n+\overline{z}^n=(z+\overline{z})(z^{n-1}+\overline{z}^{n-1}) - z \overline{z}(z^{n-2}+\overline{z}^{n-2}) \tag{1}$$ 
+
+Multiplying relation (1) with $\sqrt{2^n}$ we obtain that $S_n=S_{n-1}-2S_{n-2}$ for $\forall n \ge 3$.
 
 
 *Alternative solution:* The same recurrence relation can be obtained using a slightly different approach.
