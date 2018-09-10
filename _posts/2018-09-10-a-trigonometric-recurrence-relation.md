@@ -7,7 +7,7 @@ use_math: true
 
 In this blog post we will look at a nice problem given several years ago at the mathematical olympiad. The problem sounds like this: 
 
->Let $$ n \in \mathbb{N} $$. Prove that $ 2 \sqrt{2^n} \cos(n \arccos(\frac{\sqrt{2}}{4})) $ is a natural odd number.
+>Let $$ n \in \mathbb{N}^* $$. Prove that $ 2 \sqrt{2^n} \cos(n \arccos(\frac{\sqrt{2}}{4})) $ is a natural odd number.
 ><div style="text-align: right"> Romanian Mathematical Olympiad 2013, District Round, Author: Gheorghe Iurea, Iasi </div>
  
 Let's denote by $ S_n $ for simplicity the given expression. First, we observe that the values of $S_1$ and $S_2$ can be easily computed: 
@@ -27,7 +27,15 @@ Why is this useful? Well, we can obtain a recurrence relation involving $z$ usin
 
 $$ z^n+\overline{z}^n=(z+\overline{z})(z^{n-1}+\overline{z}^{n-1}) - z \overline{z}(z^{n-2}+\overline{z}^{n-2}) \tag{1}$$ 
 
-Multiplying relation (1) with $\sqrt{2^n}$ we obtain that $S_n=S_{n-1}-2S_{n-2}$ for $\forall n \ge 3$.
+Multiplying relation \(1\) with $\sqrt{2^n}$ we obtain that $S_n=S_{n-1}-2S_{n-2}$ for $\forall n \ge 3$.
 
 
 *Alternative solution:* The same recurrence relation can be obtained using a slightly different approach.
+We may use the following trigonometric formula: $\cos(a)+\cos(b)=2\cos(\frac{a+b}{2})\cos(\frac{a-b}{2}) \forall a, b \in \mathbb{R}$.
+We can thus obtain a ["Chebyshev polynomial"](https://brilliant.org/wiki/chebyshev-polynomials-definition-and-properties/)-type of relation:
+
+$$ S_n + 2S_{n-2} = 2 \sqrt{2^n} \cos(n \arccos(\alpha)) + 2 \sqrt{ 2^2 2^{n-2}} \cos((n-2) \arccos(\alpha))=
+2 \sqrt{2^n} \cos(\frac{n+n-2}{2}\arccos(\alpha)) \cos(\frac{n-n+2}{2}\arccos(\alpha))=
+2 \sqrt{2^n} \cos((n-1)\arccos(\alpha)) \alpha=S_{n-1}$$.
+
+Now that we have that $S_1=1, S_2=-3$ and $S_n=S_{n-1}-2S_{n-2} \forall n \ge 3$ we can easily prove by induction that $S_n$ is odd $\in \mathbb{N}^*$.
