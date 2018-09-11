@@ -13,10 +13,12 @@ This is the place where I write about problems or topics I find interesting.
   {% endfor %}
 </ul>
 
-<div style="float:right;width:30%;margin:50px;top:-50%;">
+<div style="float:right;width:30%;top:-20%;">
     <p>
     Links to some very interesting blogs:
-    <a href="http://bjlkeng.github.io/">Brian Keng</a>
-    <a href="https://wiseodd.github.io/techblog/">Agustinus Kristiadi</a>
+    <ul>
+        <li><a href="http://bjlkeng.github.io/">Brian Keng</a></li>
+        <li><a href="https://wiseodd.github.io/techblog/">Agustinus Kristiadi</a></li>
+    </ul>
     </p>
 </div>
