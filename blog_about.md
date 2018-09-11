@@ -13,7 +13,7 @@ This is the place where I write about problems or topics I find interesting.
   {% endfor %}
 </ul>
 
-<div style="float:right;">
+<div style="float:right;width:30%;margin:50px;top:-50%;">
     <p>
     Links to some very interesting blogs:
     <a href="http://bjlkeng.github.io/">Brian Keng</a>
