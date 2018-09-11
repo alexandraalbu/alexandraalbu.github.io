@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog_about.html
 ---
-
+<div style="float:left;width:70%;">
 This is the place where I write about problems or topics I find interesting.
 
 <ul>
@@ -12,8 +12,8 @@ This is the place where I write about problems or topics I find interesting.
     </li>
   {% endfor %}
 </ul>
-
-<div style="float:right;width:30%;top:-20%;">
+</div>
+<div style="float:right;width:30%;">
     <p>
     Links to some very interesting blogs:
     <ul>
