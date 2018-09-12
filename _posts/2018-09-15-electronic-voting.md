@@ -6,7 +6,7 @@ use_math: true
 ---
 
 <figure>
-    <img src='/assets/voting.png' alt='xkcd joke about voting' width="50%" display="block" margin-left="auto" margin-right="auto"/>
+    <img src='/assets/voting.png' alt='xkcd joke about voting' width="50%" align="middle"/>
     <figcaption>Taken from <a href="https://xkcd.com/">xkcd</a></figcaption>
 </figure>
 
@@ -33,8 +33,9 @@ mix-nets [6], [29], blind signatures [5], [7] or, more recently, blockchain [som
 
 
 Bibliography:
-<a name="1">1. Schneider A., Meter C., Hagemeister P.: Survey on Remote Electronic Voting (2017). arXiv preprint arXiv:1702.02798.</a> 
-<a name="2">2. Madise Ü., Martens T.: E-voting in Estonia 2005. The first practice of country-wide binding Internet voting in the world. Electronic voting (2006), 86.</a>
+<a name="1">(1) Schneider A., Meter C., Hagemeister P.: Survey on Remote Electronic Voting (2017). arXiv preprint arXiv:1702.02798.</a> 
+
+<a name="2">(2) Madise Ü., Martens T.: E-voting in Estonia 2005. The first practice of country-wide binding Internet voting in the world. Electronic voting (2006), 86.</a>
 
 
 \* Electronic voting is sometimes used as a broader term, referring also to the use of machines which facilitate
