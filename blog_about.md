@@ -3,7 +3,7 @@ layout: default
 permalink: /blog_about.html
 ---
 <div style="float:left;width:70%;">
-This is the place where I write about problems or topics I find interesting.
+This is the place where I write about problems or topics I like.
 
 <ul>
   {% for post in site.posts %}
