@@ -19,7 +19,7 @@ This is the place where I write about problems or topics I like.
     <ul>
         <li><a href="http://bjlkeng.github.io/">Brian Keng</a></li>
         <li><a href="https://wiseodd.github.io/techblog/">Agustinus Kristiadi</a></li>
-        <li><a href="http://ruishu.io/"></a>Rui Shu</li>
+        <li><a href="http://ruishu.io/">Rui Shu</a></li>
         <li><a href="https://mortendahl.github.io/">Morten Dahl</a></li>
     </ul>
     </p>
