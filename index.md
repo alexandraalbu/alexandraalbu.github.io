@@ -1,15 +1,15 @@
 ### Interests
 * Unsupervised Learning
 * Variational Autoencoders
-* Operations on encrypted data
+* Operations on Encrypted Data
 
 
 ### Education
 <table id="educationTable" class="display">
    <tbody>
       <tr>
-          <td>2018-2020</td>
-          <td>Master's Degree,  <i>Applied Computational Intelligence</i>  
+          <td>2018-2020 (expected)</td>
+          <td>Master's Degree, <i>Applied Computational Intelligence</i>  
              <br>Babeş-Bolyai University, Cluj-Napoca, Romania 
           </td>     
       </tr>   

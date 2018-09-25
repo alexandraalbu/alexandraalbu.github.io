@@ -38,4 +38,4 @@ $$ S_n + 2S_{n-2} = 2 \sqrt{2^n} \cos(n \arccos\alpha) + 2 \sqrt{ 2^2 2^{n-2}} \
 2 \sqrt{2^n} \cos(\frac{n+n-2}{2}\arccos\alpha) \cos(\frac{n-n+2}{2}\arccos\alpha)=
 2 \sqrt{2^n} \cos((n-1)\arccos\alpha) \alpha=S_{n-1}$$
 
-Now that we have that $S_1=1, S_2=-3$ and $S_n=S_{n-1}-2S_{n-2} \forall n \ge 3$ we can easily prove by induction that $S_n$ is odd \forall n $\in \mathbb{N}^*$.
+Now that we have that $S_1=1, S_2=-3$ and $S_n=S_{n-1}-2S_{n-2} \forall n \ge 3$ we can easily prove by induction that $S_n$ is odd $\forall n \in \mathbb{N}^*$.
