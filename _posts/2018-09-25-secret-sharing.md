@@ -51,7 +51,7 @@ The main idea of Shamir’s secret sharing scheme can be illustrated through Fig
 the main concept can be more easily visualized and understood in $\mathbb{R}$)
 
 <figure>
-    <img src='/assets/lagrange_interpolation.png' alt='Visualization of Shamir's scheme width="50%" align="middle"/>
+    <img src="/assets/lagrange_interpolation.png" alt="Visualization of Shamir's scheme" width="50%" align="middle"/>
     <figcaption>Fig. 1: In the left figure: being given 2 points, we can find an infinite number of
                 second degree polynomials which pass through these points. In the right: having 3 
                 points, one uniquely determines the second degree polynomial.</figcaption>
@@ -60,7 +60,7 @@ the main concept can be more easily visualized and understood in $\mathbb{R}$)
 Bibliography:
 
 <a name="1">[1] Shamir A.: How to share a secret, Communications of the ACM 22.11 (1979): 612-613</a> 
-<a name="2>[2] Yao A. C.: Protocols for secure computations. Foundations of Computer Science, 1982, SFCS'08. 23rd Annual Symposium on (pp. 160-164).</a>
-<a name="3>[3] https://mortendahl.github.io/2017/06/04/secret-sharing-part1/</a>
+<a name="2">[2] Yao A. C.: Protocols for secure computations. Foundations of Computer Science, 1982, SFCS'08. 23rd Annual Symposium on (pp. 160-164).</a>
+<a name="3">[3] https://mortendahl.github.io/2017/06/04/secret-sharing-part1/</a>
 
 
