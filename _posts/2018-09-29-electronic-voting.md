@@ -5,7 +5,7 @@ tags: [cryptography, electronic voting, secret sharing]
 use_math: true
 ---
 
-<figure>
+<figure align="middle">
     <img src='/assets/voting.png' alt='xkcd joke about voting' width="50%" align="middle"/>
     <figcaption>Picture taken from <a href="https://xkcd.com/">xkcd</a></figcaption>
 </figure>

@@ -5,22 +5,22 @@ tags: [cryptography, secret sharing]
 use_math: true
 ---
 
-Secret sharing is a very nice cryptographic primitive . Although the idea is pretty old, it still finds 
-many applications in various fields.
+Secret sharing is a very nice cryptographic primitive which is based on an ingenious yet simple idea. Although the main concept
+is pretty old, it still finds many applications in various fields.
 
 The main motivation behind the development of secret sharing schemes was cryptographic keys management. 
 Otherwise a difficult task, secure storage of cryptographic keys can be easily done using secret sharing. 
-Simply encrypting the keys does not solve the problem, as the used encryption key still needs to be managed. The 
-difficulty in storing the keys in plaintext comes from the fact that storing them in a single place is unreliable 
+Simply encrypting the keys does not solve the problem, as the used encryption key still needs to be managed. On the other hand,
+the keys can't be stored in plaintext - saving them in a single place is unreliable 
 as they can be lost, while storing multiple copies of a key increases the risk of it being found by an attacker ([1](#1)). 
 Some less straightforward, but very interesting applications of secret sharing are secure multiparty computation protocols. These protocols 
 allow users to compute a function over some inputs $x_1, x_2,..., x_n$ where $x_i$ is a secret known only by the $i^{th}$ user ([2](#2)). 
 Such secure computations can vary from simple sums over encrypted data - with applications in electronic voting - to data mining or even
 machine learning algorithms (for more on this, check this [great blog post](https://mortendahl.github.io/2017/04/17/private-deep-learning-with-mpc/)).
-This is possible due to the _homomorphic_ properties of secret sharing schemes (we`'ll come back to this later).
+This is possible due to the _homomorphic_ properties of secret sharing schemes - we'll come back to this later.
 
-Informally, secret sharing consists in splitting a secret into multiple parts, called _shares_, such that each 
-individual share reveals nothing about the secret. The secret can, however, be reconstructed by authorized 
+Informally, secret sharing consists in splitting a secret - in the above scenario, the encryption key - into multiple parts, 
+called _shares_, such that each individual share reveals nothing about the secret. The secret can, however, be reconstructed by authorized 
 groups (called _access structures_). A scheme in which a secret is reconstructed given a sufficiently large 
 group of shares is called a _threshold secret sharing scheme_. In this blog post we will discuss only this 
 type of schemes.
@@ -62,7 +62,7 @@ the main concept can be more easily visualized and understood in $\mathbb{R}$)
 While Shamir’s scheme is based on polynomial interpolation, Blakley’s secret sharing
 algorithm relies on geometric properties of planes in a Euclidean space.
 In Blakley’s $(k, n)$ scheme, the secret is a point in a $k$-dimensional space 
-and the shares are $n (k - 1)$-dimensional hyper planes on which the secret lies. The
+and the shares are $n$ $(k - 1)$-dimensional hyper planes on which the secret lies. The
 secret can be recovered by finding the intersection of $k$ such planes.
 
 Bibliography:
