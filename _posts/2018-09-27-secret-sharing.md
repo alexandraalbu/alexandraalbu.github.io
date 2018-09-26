@@ -15,7 +15,7 @@ difficulty in storing the keys in plaintext comes from the fact that storing the
 as they can be lost, while storing multiple copies of a key increases the risk of it being found by an attacker ([1](#1)). 
 Some less straightforward, but very interesting applications of secret sharing are secure multiparty computation protocols. These protocols 
 allow users to compute a function over some inputs $x_1, x_2,..., x_n$ where $x_i$ is a secret known only by the $i^{th}$ user ([2](#2)). 
-Such secure computations can vary from simple sums over encrypted data \(with applications in electronic voting\) to data mining or even
+Such secure computations can vary from simple sums over encrypted data (with applications in electronic voting) to data mining or even
 machine learning algorithms (for more on this, check this [great blog post](https://mortendahl.github.io/2017/04/17/private-deep-learning-with-mpc/)).
 This is possible due to the _homomorphic_ properties of secret sharing schemes \(we'll come back to this later\).
 
@@ -44,7 +44,8 @@ $f(x)=a_0+a_1x+a_2x^2+…+a_{k-1}x^{k-1}$, where $a_0=S$.
 > * Compute the value of $f$ at $n$ distinct non-zero elements $x_1,x_2,...,x_n$ and distribute the shares $(x_i, f(x_i))$, 
 $1 \le i \le n$ among the participants. 
 > * $k$ participants can now reconstruct the secret by using polynomial interpolation.
-Such a scheme is called a $(k, n)$ threshold scheme.
+
+>Such a scheme is called a $(k, n)$ threshold scheme.
 
 
 
