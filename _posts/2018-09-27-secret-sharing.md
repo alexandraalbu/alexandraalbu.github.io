@@ -17,7 +17,7 @@ Some less straightforward, but very interesting applications of secret sharing a
 allow users to compute a function over some inputs $x_1, x_2,..., x_n$ where $x_i$ is a secret known only by the $i^{th}$ user ([2](#2)). 
 Such secure computations can vary from simple sums over encrypted data - with applications in electronic voting - to data mining or even
 machine learning algorithms (for more on this, check this [great blog post](https://mortendahl.github.io/2017/04/17/private-deep-learning-with-mpc/)).
-This is possible due to the _homomorphic_ properties of secret sharing schemes (we'll come back to this later).
+This is possible due to the _homomorphic_ properties of secret sharing schemes (we`'ll come back to this later).
 
 Informally, secret sharing consists in splitting a secret into multiple parts, called _shares_, such that each 
 individual share reveals nothing about the secret. The secret can, however, be reconstructed by authorized 
@@ -51,8 +51,8 @@ The main idea of Shamir’s secret sharing scheme can be illustrated through Fig
 (_Disclaimer_: I lied a bit here, as Shamir’s scheme deals with finite fields and not real numbers as in my figure down here. However, 
 the main concept can be more easily visualized and understood in $\mathbb{R}$)
 
-<figure>
-    <img src="/assets/lagrange_interpolation.png" alt="Visualization of Shamir's scheme" width="50%" align="middle"/>
+<figure align="middle">
+    <img src="/assets/lagrange_interpolation.png" alt="Visualization of Shamir's scheme" width="70%" align="middle"/>
     <figcaption>Fig. 1: In the left figure: being given 2 points, we can find an infinite number of
                 second degree polynomials which pass through these points. In the right: having 3 
                 points, one uniquely determines the second degree polynomial.</figcaption>
@@ -61,9 +61,9 @@ the main concept can be more easily visualized and understood in $\mathbb{R}$)
 ## Blakley’s Secret Sharing Scheme
 While Shamir’s scheme is based on polynomial interpolation, Blakley’s secret sharing
 algorithm relies on geometric properties of planes in a Euclidean space.
-In Blakley’s (𝑘 , 𝑛 ) scheme, the secret is a point in the 𝑘 -dimensional space (the vector
-space 𝐹􀯣) and the shares are 𝑛 (𝑘 − 1)-dimensional hyper planes on which the secret lies. The
-secret can be recovered by finding the intersection of 𝑘 such planes
+In Blakley’s $(k, n)$ scheme, the secret is a point in a $k$-dimensional space 
+and the shares are $n (k - 1)$-dimensional hyper planes on which the secret lies. The
+secret can be recovered by finding the intersection of $k$ such planes.
 
 Bibliography:
 
