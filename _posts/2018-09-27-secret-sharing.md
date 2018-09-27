@@ -13,17 +13,19 @@ Otherwise a difficult task, secure storage of cryptographic keys can be easily d
 Simply encrypting the keys does not solve the problem, as the used encryption key still needs to be managed. On the other hand,
 the keys can't be stored in plaintext - saving them in a single place is unreliable 
 as they can be lost, while storing multiple copies of a key increases the risk of it being found by an attacker ([1](#1)). 
+
+Secret sharing solves these problems using a clever idea. The method consists in splitting a secret - in the above scenario, 
+the encryption key - into multiple parts, called _shares_, such that each individual share reveals nothing about the secret. 
+The secret can, however, be reconstructed by authorized groups (called _access structures_). A scheme in which a secret is 
+reconstructed given a sufficiently large group of shares is called a _threshold secret sharing scheme_. In this blog post 
+we will discuss only this type of schemes.
+
 Some less straightforward, but very interesting applications of secret sharing are secure multiparty computation protocols. These protocols 
 allow users to compute a function over some inputs $x_1, x_2,..., x_n$ where $x_i$ is a secret known only by the $i^{th}$ user ([2](#2)). 
 Such secure computations can vary from simple sums over encrypted data - with applications in electronic voting - to data mining or even
 machine learning algorithms (for more on this, check this [great blog post](https://mortendahl.github.io/2017/04/17/private-deep-learning-with-mpc/)).
 This is possible due to the _homomorphic_ properties of secret sharing schemes - we'll come back to this later.
 
-Informally, secret sharing consists in splitting a secret - in the above scenario, the encryption key - into multiple parts, 
-called _shares_, such that each individual share reveals nothing about the secret. The secret can, however, be reconstructed by authorized 
-groups (called _access structures_). A scheme in which a secret is reconstructed given a sufficiently large 
-group of shares is called a _threshold secret sharing scheme_. In this blog post we will discuss only this 
-type of schemes.
 
 From the security point of view, secret sharing schemes can be classified into:
 * _Perfect_ schemes – in which unauthorized groups gain no information about the secret from their shares
@@ -41,7 +43,7 @@ $S$ can be represented as an element of $F$. Let $k, n$ be natural numbers with 
 number of participants in the scheme - and the number of shares - and $k$ is the threshold value.
 > * Choose $k-1$ elements $a_1,a_2,..., a_{k-1}$ from $F$ and construct the polynomial
 $f(x)=a_0+a_1x+a_2x^2+…+a_{k-1}x^{k-1}$, where $a_0=S$.
-> * Compute the value of $f$ at $n$ distinct non-zero elements $x_1,x_2,...,x_n$ and distribute the shares $(x_i, f(x_i))$, 
+> * Compute the value of $f$ at $n$ distinct non-zero elements $x_1, x_2,..., x_n$ and distribute the shares $(x_i, f(x_i))$, 
 $1 \le i \le n$ among the participants. 
 > * $k$ participants can now reconstruct the secret by using polynomial interpolation.
 >Such a scheme is called a $(k, n)$ threshold scheme.
