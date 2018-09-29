@@ -15,7 +15,7 @@ has a very short requirement and a really nice and somehow surprising solution.
 It is not hard to see that the constant and the identity functions satisfy the requirements.
 Further, we'll prove that these are the only solutions.
 
-As the function $f$ is differentiable, it is very tempting (or at least, I fell into this trap) 
+As the function $f$ is differentiable, it is very tempting - or at least, I fell into this trap - 
 to differentiate the given relation and see then what you can find out about $f$. However, this seems 
 to be a dead end. 
 
@@ -23,7 +23,7 @@ Ok, since this doesn't work, what other options do we have? Let's look again at 
 relation in the requirement. One thing you may think of is trying to find something
 about the image of $f$, since $f$ composed with itself gives still $f$.
 The official solution goes in this direction, noticing that because $f$ is continuous 
-(being differentiable), its image is an interval $I$, included in $\mathbb{R}$.
+- being differentiable - its image is an interval $I$, included in $\mathbb{R}$.
 If the interval contains a single value, that the function is constant and we're done.
 If it isn't, then denote by $m=\inf{I}$ and $M=\sup{I}$. We have that $m \lt M$ and $m, M \in \overline{\mathbb{R}}$
 
