@@ -27,7 +27,9 @@ The official solution goes in this direction, noticing that because $f$ is conti
 If the interval contains a single value, that the function is constant and we're done.
 If it isn't, then denote by $m=\inf{I}$ and $M=\sup{I}$. We have that $m \lt M$ and $m, M \in \overline{\mathbb{R}}$
 The relation in the requirement translates to:
+
 $$ f(x)=x, \forall x \in I \tag{1}$$
+
 Now, we're trying to prove that in this case, $f$ must be the identity function, meaning that $I=\mathbb{R}$.
 
 We'll suppose the contrary, i.e. that $a$ is real - so not $-\infty$. 
