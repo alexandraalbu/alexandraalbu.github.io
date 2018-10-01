@@ -27,17 +27,17 @@ The official solution goes in this direction, noticing that because $f$ is conti
 If the interval contains a single value, that the function is constant and we're done.
 If it isn't, then denote by $m=\inf{I}$ and $M=\sup{I}$. We have that $m \lt M$ and $m, M \in \overline{\mathbb{R}}$
 The relation in the requirement translates to:
-$$ f(x)=x \forall x \in I \tag{1}$$
+$$ f(x)=x, \forall x \in I \tag{1}$$
 Now, we're trying to prove that in this case, $f$ must be the identity function, meaning that $I=\mathbb{R}$.
 
-We'll suppose the contrary, i.e. that $a$ is real (so not $-\infinity$). 
+We'll suppose the contrary, i.e. that $a$ is real - so not $-\infty$. 
 Since $f$ is continuous, from relation (1) we get that $f(a)=a$ and, further:
 
 $$ f'(a)=\lim_{x \to a, x>a} \frac{f(x)-f(a)}{x-a}= \lim_{x \to a, x>a} \frac{x-a}{x-a}=1$$
 
 However, $f(a)=a=\inf{I}=\inf{f(x)}|x\in \mathbb{R}$, so $f$ reaches its minimum at $a$. From
-Fermat's theorem, we have that $f'(a)=0$, so we obtained a contradiction. Therefore, $a=-\infinity$.
-In a similar way, it can be proved that $b=\infinity$. 
+Fermat's theorem, we have that $f'(a)=0$, so we obtained a contradiction. Therefore, $a=-\infty$.
+In a similar way, it can be proved that $b=\infty$. 
 
 
 Source: [official solution](http://ssmr.ro/files/onm2014/faza_nationala/subiecte/solutii_11.pdf) 
