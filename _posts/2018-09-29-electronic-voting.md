@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Electronic Voting"
-tags: [cryptography, electronic voting, secret sharing]
+tags: [electronic voting, secret sharing]
+category: cryptography
 use_math: true
 ---
 

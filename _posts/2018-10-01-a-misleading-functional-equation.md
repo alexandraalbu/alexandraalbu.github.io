@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "A Misleading Functional Equation"
-tags: [mathematical analysis, high school maths]
+tags: [mathematical analysis, functional equations]
+category: high school maths
 use_math: true
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Secret Sharing"
-tags: [cryptography, secret sharing]
+tags: [secret sharing, Shamir's Secret Sharing Scheme, Blakley’s Secret Sharing Scheme]
+category: cryptography 
 use_math: true
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "A Trigonometric Recurrence Relation"
-tags: [trigonometry, high school maths]
+tags: [trigonometry, complex numbers, Chebyshev polynomials]
+category: high school maths
 use_math: true
 ---
 
