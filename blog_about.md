@@ -8,8 +8,8 @@ This blog is a rather chaotic collection of short posts about problems or topics
 
 <ul>
   {% for post in site.posts %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.tags }}></a></small></p>			
   {% endfor %}
 </ul>
 </div>
