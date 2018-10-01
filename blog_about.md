@@ -8,8 +8,8 @@ This blog is a rather chaotic collection of short posts about problems or topics
 
 <ul>
   {% for post in site.posts %}
-    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> - {{ post.category }}></small></p>			
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> - {{ post.category }}</small></p>			
   {% endfor %}
 </ul>
 </div>
