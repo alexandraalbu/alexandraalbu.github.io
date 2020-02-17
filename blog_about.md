@@ -17,10 +17,12 @@ This blog is a rather chaotic collection of short posts about problems or topics
     <p>
     Links to some very interesting blogs:
     <ul>
-        <li><a href="http://bjlkeng.github.io/">Brian Keng</a></li>
+        <li><a href="http://bjlkeng.github.io/">Bounded Rationality (by Brian Keng)</a></li>
         <li><a href="https://wiseodd.github.io/techblog/">Agustinus Kristiadi</a></li>
         <li><a href="http://ruishu.io/">Rui Shu</a></li>
-        <li><a href="https://mortendahl.github.io/">Morten Dahl</a></li>
+        <li><a href="https://mortendahl.github.io/">Cryptography and Machine Learning (by Morten Dahl)</a></li>
+        <li><a href="https://chrisorm.github.io/">Infinite Norm</a></li>
+        <li><a href="http://alexhwilliams.info/itsneuronalblog/">It's Neuronal</a></li>
     </ul>
     </p>
 </div>

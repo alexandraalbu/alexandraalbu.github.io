@@ -31,7 +31,7 @@
 
 
 ### Contact
-:email: alexandraalbu14@gmail.com  
+:email: alexandralbu14@gmail.com  
 
 
 
