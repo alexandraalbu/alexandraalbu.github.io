@@ -1,16 +1,23 @@
 ### Interests
-* Unsupervised Learning
+* Representation Learning for Protein Data
 * Variational Autoencoders
-* Operations on Encrypted Data
+
 
 
 ### Education
 <table id="educationTable" class="display">
    <tbody>
       <tr>
-          <td>2018-2020 (expected)</td>
+          <td>2020-2023 (expected)</td>
+          <td>PhD Student  
+             <br>Babeş-Bolyai University, Cluj-Napoca, Romania 
+          </td>     
+      </tr>
+      <tr>
+          <td>2018-2020</td>
           <td>Master's Degree, <i>Applied Computational Intelligence</i>  
              <br>Babeş-Bolyai University, Cluj-Napoca, Romania 
+             <br> Thesis topic: Analysing protein dynamics using Variational Autoencoders
           </td>     
       </tr>   
       <tr>
@@ -31,7 +38,7 @@
 
 
 ### Contact
-:email: alexandralbu14@gmail.com  
+:email: alexandralbu14@gmail.com, alexandra.albu@ubbcluj.ro
 
 
 
